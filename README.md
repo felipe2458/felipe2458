@@ -24,3 +24,5 @@
   </a>
   <p><strong>Ctrl+Clique</strong> ou <strong>Cmd+Clique</strong> para abrir em outra aba</p>
 </div>
+
+![Snake animation](https://github.com/felipe2458/felipe2458/blob/output/github-contribution-grid-snake.svg)
