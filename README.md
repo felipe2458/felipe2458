@@ -1,6 +1,7 @@
+<h1 aling="left">🔥 My Stats</h1>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=pt-br&hide_border=true&username=felipe2458" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&username=felipe2458" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=felipe2458&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
 ---
@@ -32,5 +33,4 @@
   <a href="https://www.instagram.com/felipe_e2458/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
   </a>
-  <p><strong>Ctrl+Clique</strong> ou <strong>Cmd+Clique</strong> para abrir em outra aba</p>
 </div>
