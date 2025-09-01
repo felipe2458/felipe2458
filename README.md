@@ -26,10 +26,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
 </div>
 
-<picture>
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/felipe2458/felipe2458/output/pacman-contribution-graph.svg">
-</picture>
-
 ---
 
 ### Social Media
