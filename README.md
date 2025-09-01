@@ -35,4 +35,4 @@
   <p><strong>Ctrl+Clique</strong> ou <strong>Cmd+Clique</strong> para abrir em outra aba</p>
 </div>
 
-<!--![snake gif](https://github.com/felipe2458/felipe2458/blob/output/github-contribution-grid-snake.svg)-->
+<img src="https://raw.githubusercontent.com/felipe2458/felipe2458/output/snake.svg" alt="Snake animation" />
