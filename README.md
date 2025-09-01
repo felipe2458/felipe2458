@@ -34,5 +34,3 @@
   </a>
   <p><strong>Ctrl+Clique</strong> ou <strong>Cmd+Clique</strong> para abrir em outra aba</p>
 </div>
-
-<img src="https://raw.githubusercontent.com/felipe2458/felipe2458/output/snake.svg" alt="Snake animation" />
