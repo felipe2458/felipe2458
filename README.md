@@ -44,6 +44,6 @@
 
 #
 
-<picture>
+<!--<picture>
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/felipe2458/felipe2458/output/pacman-contribution-graph.svg">
-</picture>
+</picture>-->
