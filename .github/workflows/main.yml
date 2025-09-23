@@ -25,11 +25,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: rename and move pacman svg
-        run: |
-          mkdir -p dist
-          mv pacman-contribution-graph.svg dist/pacman-contribution-graph.svg
-
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
