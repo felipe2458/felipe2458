@@ -36,7 +36,7 @@
 
 ---
 
-# 🏆 trophies 🥇
+# 🏆 Trophies 🥇
 
 <br>
 
