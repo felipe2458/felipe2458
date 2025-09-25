@@ -63,16 +63,16 @@
 
 ## 🚀 Featured Projects  
 
-- 🎨 [Project Config](https://github.com/felipe2458/project-config)
-  Interactive theme configuration system and creative features.
+- 🎨 [Project Config](https://github.com/felipe2458/project-config) <br>
+  Interactive theme configuration system and creative features.<br>
   **Tech:** Angular, TypeScript, HTML, SCSS
   
-- 🎬 [CineMatch](https://github.com/felipe2458/cinematch)
-  Movie platform to discover, favorite and manage your movie choices.
+- 🎬 [CineMatch](https://github.com/felipe2458/cinematch) <br>
+  Movie platform to discover, favorite and manage your movie choices.<br>
   **Tech:** Angular, TypeScript, HTML, SCSS
 
-- 📱 Class_Controll *(Private)*  
-  Flutter app for tracking student absences and registering classes and students. The teacher manually sends the data to the main system.
+- 📱 Class_Controll *(Private)*  <br>
+  Flutter app for tracking student absences and registering classes and students. The teacher manually sends the data to the main system. <br>
   **Tech:** Flutter, Dart, sqFlite  
 ---
 
