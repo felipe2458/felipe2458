@@ -63,17 +63,17 @@
 
 ## 🚀 Featured Projects  
 
-- 🎨 [Project Config](https://github.com/felipe2458/project-config)  
-  Sistema interativo de configuração de tema e funcionalidades criativas.  
+- 🎨 [Project Config](https://github.com/felipe2458/project-config)
+  Interactive theme configuration system and creative features.
   **Tech:** Angular, TypeScript, HTML, SCSS
   
-- 🎬 [CineMatch](https://github.com/felipe2458/cinematch)  
-  Plataforma de filmes para descobrir, favoritar e gerenciar suas escolhas de cinema.  
+- 🎬 [CineMatch](https://github.com/felipe2458/cinematch)
+  Movie platform to discover, favorite and manage your movie choices.
   **Tech:** Angular, TypeScript, HTML, SCSS
 
 - 📱 Class_Controll *(Private)*  
-App em Flutter para controle de faltas dos alunos, cadastro de turmas e alunos. O professor envia os dados manualmente para o sistema principal.  
-**Tech:** Flutter, Dart, sqFlite  
+  Flutter app for tracking student absences and registering classes and students. The teacher manually sends the data to the main system.
+  **Tech:** Flutter, Dart, sqFlite  
 ---
 
 ## 📊 Activity Graph 📈
