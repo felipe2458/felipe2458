@@ -85,7 +85,7 @@
 ## 📊 Activity Graph 📈
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=felipe2458&radius=16&theme=react&area=true" height="300" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=felipe2458&radius=16&theme=dracula&area=true" height="300" />
 </div>
 
 <br>
