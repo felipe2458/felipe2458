@@ -29,7 +29,7 @@
   <img src="https://streak-stats.demolab.com?user=felipe2458&mode=daily&theme=radical&border_radius=5" height="200" alt="Streak stats" />
 </div>
 
-## 📈 Total Contributions This Year
+## 📈 Total Contributions
 
 <div align="center">
   <img src="https://img.shields.io/badge/Contributions--ff69b4?style=for-the-badge" height="200" alt="All contribuitions" />
