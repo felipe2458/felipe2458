@@ -1,4 +1,4 @@
-# Hello, I am Felipe Alves 👋👋
+# Hello, I am Felipe Alves 👋
 
 <br>
 
