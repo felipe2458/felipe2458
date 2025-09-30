@@ -1,29 +1,24 @@
-name: Update Contributions
-
+name: Generate Contributions Image
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install jq
-        run: sudo apt-get install -y jq
-
-      - name: Get contributions
+      - name: Generate contributions image
         run: |
-          TOTAL=$(curl -s https://github-contributions-api.jogruber.de/v4/felipe2458 | jq '.totalContributions')
-          sed -i "s/badge\/Contributions-.*-green/badge\/Contributions-$TOTAL-green/" README.md
+          TOTAL=$(gh api users/${{ github.actor }}/repos --paginate | jq '[.[] | select(.fork == false) | .stargazers_count] | add')
+          echo "Total contributions: $TOTAL"
+          convert -size 600x200 xc:none -gravity center -font Arial -pointsize 40 -fill '#FF0080' -annotate 0 "Total Contributions: $TOTAL" contributions.png
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Update contributions"
-          git push
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: contributions-image
+          path: contributions.png
