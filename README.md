@@ -32,7 +32,7 @@
 ## 📈 Total Contributions
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Contributions--ff69b4?style=for-the-badge" height="200" alt="All contribuitions" />
+  <img src="https://img.shields.io/badge/Contributions-TOTAL_CONTRIBUTIONS_HERE-ff69b4?style=for-the-badge" height="200" alt="All contributions" />
 </div>
 
 ---
