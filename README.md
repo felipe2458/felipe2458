@@ -29,6 +29,12 @@
   <img src="https://streak-stats.demolab.com?user=felipe2458&mode=daily&theme=dracula&border_radius=5" height="200" alt="Streak stats" />
 </div>
 
+## 📈 Total Contributions This Year
+
+<div align="center">
+  ![Total Contributions](https://img.shields.io/badge/Contributions-0-green?style=for-the-badge&logo=github)
+</div>
+
 ---
 
 ## 📚 My Skills 🛠️
