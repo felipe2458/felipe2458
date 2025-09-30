@@ -1,0 +1,25 @@
+name: Update Contributions
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get contributions
+        run: |
+          TOTAL=$(curl -s https://github-contributions-api.jogruber.de/v4/felipe2458 | jq '.totalContributions')
+          sed -i "s/Contributions this year: \*\*.*\*\*/Contributions this year: **$TOTAL**/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update contributions"
+          git push
