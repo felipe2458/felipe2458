@@ -1,24 +1,37 @@
-name: Generate Contributions Image
+name: Update Contributions Badge
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Generate contributions image
+      - name: Get contributions
         run: |
-          TOTAL=$(gh api users/${{ github.actor }}/repos --paginate | jq '[.[] | select(.fork == false) | .stargazers_count] | add')
-          echo "Total contributions: $TOTAL"
-          convert -size 600x200 xc:none -gravity center -font Arial -pointsize 40 -fill '#FF0080' -annotate 0 "Total Contributions: $TOTAL" contributions.png
+          TOTAL=$(gh api graphql -f query='
+          query {
+            user(login: "${{ github.actor }}") {
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                }
+              }
+            }
+          }' | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          echo "TOTAL_CONTRIBUTIONS=$TOTAL" >> $GITHUB_ENV
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: contributions-image
-          path: contributions.png
+      - name: Update README
+        run: |
+          sed -i "s/TOTAL_CONTRIBUTIONS_HERE/$TOTAL_CONTRIBUTIONS/" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update contributions badge" || echo "No changes"
+          git push
