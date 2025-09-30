@@ -19,20 +19,20 @@
 ## 👨‍💻 GitHub Statistics 💻
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=felipe2458&show_icons=true&include_all_commits=true&count_private=true&theme=dracula" height="200" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=felipe2458&layout=compact&langs_count=5&theme=dracula" height="200" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=felipe2458&show_icons=true&count_private=true&theme=radical" height="200" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=felipe2458&layout=compact&langs_count=5&theme=radical" height="200" alt="Top languages" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=felipe2458&mode=daily&theme=dracula&border_radius=5" height="200" alt="Streak stats" />
+  <img src="https://streak-stats.demolab.com?user=felipe2458&mode=daily&theme=radical&border_radius=5" height="200" alt="Streak stats" />
 </div>
 
 ## 📈 Total Contributions This Year
 
 <div align="center">
-  ![Total Contributions](https://img.shields.io/badge/Contributions-null-green?style=for-the-badge&logo=github)
+  <img src="https://img.shields.io/badge/Contributions-TOTAL_CONTRIBUTIONS_HERE-ff69b4?style=for-the-badge" height="200" alt="All contribuitions" />
 </div>
 
 ---
