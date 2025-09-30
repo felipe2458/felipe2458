@@ -32,7 +32,7 @@
 ## 📈 Total Contributions This Year
 
 <div align="center">
-  ![Total Contributions](https://img.shields.io/badge/Contributions-0-green?style=for-the-badge&logo=github)
+  ![Total Contributions](https://img.shields.io/badge/Contributions-null-green?style=for-the-badge&logo=github)
 </div>
 
 ---
