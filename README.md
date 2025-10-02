@@ -1,3 +1,5 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00E5FF&height=120&section=header"/>
+
 <div align="left">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&pause=1000&color=FFFFFF&width=600&lines=👋+Hi,+I'm+Felipe+Alves" alt="Typing Animation" />
 </div>
