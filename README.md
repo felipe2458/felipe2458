@@ -79,6 +79,10 @@
   Movie platform to discover, favorite and manage your movie choices.<br>
   **Tech:** Angular, TypeScript, HTML, SCSS
 
+- ⚙️ [**coTask**](https://github.com/felipe2458/CoTask)  
+  Backend challenge built with AdonisJS for a RESTful collaborative task management API. Includes authentication, validations, permissions, and task sharing.  
+  **Tech:** AdonisJS · Node.js · SQLite · Docker  
+
 - 📱 Class_Controll *(Private)*  <br>
   Flutter app for tracking student absences and registering classes and students. The teacher manually sends the data to the main system. <br>
   **Tech:** Flutter, Dart, sqFlite  
